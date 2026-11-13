@@ -80,10 +80,3 @@ ro.vendor.qti.va_aosp.support=1
 security.perf_harden=1
 sys.hqm.support=true
 ro.frp.pst=/dev/block/persistent
-
-# Tweaker
-debug.stagefright.c2inputsurface=-1
-persist.sys.folio.enabled=0
-persist.sys.swapfile.enabled=0
-ro.lmk.swap_free_low_percentage=1
-ro.lmk.lowmem_min_oom_score=1001

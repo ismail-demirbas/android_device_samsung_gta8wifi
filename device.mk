@@ -45,6 +45,16 @@ PRODUCT_PACKAGES += afc_mode.rc
 PRODUCT_PACKAGES += swapfile_gta8wifi swapfile_rc_gta8wifi
 PRODUCT_PACKAGES += SwapfileSettings_gta8wifi
 
+PRODUCT_SYSTEM_PROPERTIES += persist.sys.folio.enabled=0
+PRODUCT_SYSTEM_PROPERTIES += persist.sys.swapfile.enabled=0
+
+# Camera2Api Temporary Fix
+PRODUCT_SYSTEM_PROPERTIES += debug.stagefright.c2inputsurface=-1
+
+# LKM Twealer
+PRODUCT_SYSTEM_PROPERTIES += ro.lmk.swap_free_low_percentage=1
+PRODUCT_SYSTEM_PROPERTIES += ro.lmk.lowmem_min_oom_score=1001
+
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := false
 
