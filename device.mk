@@ -9,8 +9,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# OTA
-PRODUCT_SYSTEM_PROPERTIES += lineage.updater.uri=https://raw.githubusercontent.com/ismail-demirbas/android_device_samsung_gta8wifi/LineageOS-24/{device}.json
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -44,6 +42,7 @@ PRODUCT_PACKAGES += folio-daemon_Settings
 PRODUCT_PACKAGES += afc_mode.rc
 PRODUCT_PACKAGES += swapfile_gta8wifi swapfile_rc_gta8wifi
 PRODUCT_PACKAGES += SwapfileSettings_gta8wifi
+PRODUCT_PACKAGES += OtaOverlayGta8wifi
 
 PRODUCT_SYSTEM_PROPERTIES += persist.sys.folio.enabled=0
 PRODUCT_SYSTEM_PROPERTIES += persist.sys.swapfile.enabled=0

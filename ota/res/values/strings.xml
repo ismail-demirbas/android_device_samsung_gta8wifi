@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/ismail-demirbas/android_device_samsung_gta8wifi/LineageOS-24/{device}.json</string>
+</resources>

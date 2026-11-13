@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.updater.ota.gta8wifi">
+    <overlay
+        android:targetPackage="org.lineageos.updater"
+        android:priority="100"
+        android:isStatic="true" />
+</manifest>
