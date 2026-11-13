@@ -27,7 +27,7 @@ public class SwapfileProvider extends EntriesProvider {
         protected MetaData getMetaData() {
             return new MetaData("com.android.settings.category.ia.system")
                     .setTitle("4GB Swap File")
-                    .setSummary("4 GB swap file on internal storage (may reduce performance, especially under heavy memory pressure; restart required for changes to take effect)");
+                    .setSummary("4 GB swap file on internal storage");
         }
 
         @Override

@@ -9,7 +9,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-
 # fastbootd
 PRODUCT_PACKAGES += \
     libui_shim_gta8wifi \
