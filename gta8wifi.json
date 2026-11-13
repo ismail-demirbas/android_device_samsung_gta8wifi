@@ -6,7 +6,8 @@
         "filename": "lineage-24.0-20261113-UNOFFICIAL-gta8wifi.zip",
         "sha256": "4db0438a42d8f4dde3a7a1151a136ce9d3df487206d73bb51741261c67935900",
         "size": 1363682718,
-        "url": "https://github.com/ismail-demirbas/android_device_samsung_gta8wifi/releases/download/lineage-24.0-20261113-UNOFFICIAL-gta8wifi/lineage-24.0-20261113-UNOFFICIAL-gta8wifi.zip"
+        "url": "https://github.com/ismail-demirbas/android_device_samsung_gta8wifi/releases/download/lineage-24.0-20261113-UNOFFICIAL-gta8wifi/lineage-24.0-20261113-UNOFFICIAL-gta8wifi.zip",
+        "os_sdk_level": 37
       }
     ],
     "type": "UNOFFICIAL",
