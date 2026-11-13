@@ -1,0 +1,12 @@
+type swapfile, domain, coredomain;
+type swapfile_exec, system_file_type, exec_type, file_type;
+init_daemon_domain(swapfile)
+allow swapfile shell_exec:file rx_file_perms;
+allow swapfile toolbox_exec:file rx_file_perms;
+allow swapfile self:capability sys_admin;
+allow swapfile proc_swaps:file r_file_perms;
+allow swapfile system_data_root_file:dir search;
+allow swapfile unencrypted_data_file:dir rw_dir_perms;
+allow swapfile unencrypted_data_file:file create_file_perms;
+allow swapfile zero_device:chr_file r_file_perms;
+allow swapfile device:dir search;

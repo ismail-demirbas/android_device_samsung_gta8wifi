@@ -1,0 +1,4 @@
+/system/bin/charger_bl_daemon    u:object_r:charger_bl_exec:s0
+/system/bin/folio_daemon          u:object_r:folio_daemon_exec:s0
+
+/system_ext/bin/swapfile\.sh u:object_r:swapfile_exec:s0

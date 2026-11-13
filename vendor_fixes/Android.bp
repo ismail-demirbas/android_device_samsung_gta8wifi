@@ -1,0 +1,2416 @@
+filegroup {
+    name: "gta8wifi_vfix_bin_applypatch",
+    srcs: ["bin/applypatch"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_bin_hw_android_hardware_power_stats_1_0_service_mock",
+    srcs: ["bin/hw/android.hardware.power.stats@1.0-service.mock"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_bin_hw_vendor_samsung_hardware_light_service",
+    srcs: ["bin/hw/vendor.samsung.hardware.light-service"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_bin_hw_vendor_sprd_hardware_broadcastradio_2_0_service",
+    srcs: ["bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_bin_hw_vendor_unisoc_hardware_power_service",
+    srcs: ["bin/hw/vendor.unisoc.hardware.power-service"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_bin_hw_wpa_supplicant",
+    srcs: ["bin/hw/wpa_supplicant"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_bin_systemDebuggerd",
+    srcs: ["bin/systemDebuggerd"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_hw_android_hardware_audio_effect_2_0_impl_so",
+    srcs: ["lib/hw/android.hardware.audio.effect@2.0-impl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_hw_android_hardware_audio_effect_6_0_impl_so",
+    srcs: ["lib/hw/android.hardware.audio.effect@6.0-impl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_hw_android_hardware_audio_2_0_impl_so",
+    srcs: ["lib/hw/android.hardware.audio@2.0-impl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_hw_android_hardware_audio_6_0_impl_so",
+    srcs: ["lib/hw/android.hardware.audio@6.0-impl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_hw_camera_ums512_so",
+    srcs: ["lib/hw/camera.ums512.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_hw_hwcomposer_ums512_so",
+    srcs: ["lib/hw/hwcomposer.ums512.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libpowerhal_cli_so",
+    srcs: ["lib/libpowerhal_cli.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libsprdaudiohal_5_0_so",
+    srcs: ["lib/libsprdaudiohal@5.0.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libsprdaudiohal_6_0_so",
+    srcs: ["lib/libsprdaudiohal@6.0.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_av1dec_so",
+    srcs: ["lib/libstagefright_sprd_av1dec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_deintl_so",
+    srcs: ["lib/libstagefright_sprd_deintl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_h264dec_so",
+    srcs: ["lib/libstagefright_sprd_h264dec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_h264enc_so",
+    srcs: ["lib/libstagefright_sprd_h264enc.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_h265dec_so",
+    srcs: ["lib/libstagefright_sprd_h265dec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_h265enc_so",
+    srcs: ["lib/libstagefright_sprd_h265enc.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_mpeg4dec_so",
+    srcs: ["lib/libstagefright_sprd_mpeg4dec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_mpeg4enc_so",
+    srcs: ["lib/libstagefright_sprd_mpeg4enc.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_vp9dec_so",
+    srcs: ["lib/libstagefright_sprd_vp9dec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_vpxdec_so",
+    srcs: ["lib/libstagefright_sprd_vpxdec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libwvhidl_so",
+    srcs: ["lib/libwvhidl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_mediadrm_libwvdrmengine_so",
+    srcs: ["lib/mediadrm/libwvdrmengine.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_vendor_unisoc_hardware_power_V1_ndk_platform_so",
+    srcs: ["lib/vendor.unisoc.hardware.power-V1-ndk_platform.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_hw_android_hardware_audio_effect_2_0_impl_so",
+    srcs: ["lib64/hw/android.hardware.audio.effect@2.0-impl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_hw_android_hardware_audio_effect_6_0_impl_so",
+    srcs: ["lib64/hw/android.hardware.audio.effect@6.0-impl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_hw_android_hardware_audio_2_0_impl_so",
+    srcs: ["lib64/hw/android.hardware.audio@2.0-impl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_hw_android_hardware_audio_6_0_impl_so",
+    srcs: ["lib64/hw/android.hardware.audio@6.0-impl.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_hw_hwcomposer_ums512_so",
+    srcs: ["lib64/hw/hwcomposer.ums512.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libSecC2ComponentStore_so",
+    srcs: ["lib64/libSecC2ComponentStore.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libcodec2_sec_aacdec_so",
+    srcs: ["lib64/libcodec2_sec_aacdec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libcodec2_sec_imadec_so",
+    srcs: ["lib64/libcodec2_sec_imadec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libkeymaster_helper_so",
+    srcs: ["lib64/libkeymaster_helper.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libpowerhal_cli_so",
+    srcs: ["lib64/libpowerhal_cli.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libsprdaudiohal_5_0_so",
+    srcs: ["lib64/libsprdaudiohal@5.0.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libsprdaudiohal_6_0_so",
+    srcs: ["lib64/libsprdaudiohal@6.0.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libstagefright_sprd_av1dec_so",
+    srcs: ["lib64/libstagefright_sprd_av1dec.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_vendor_samsung_hardware_light_V1_ndk_platform_so",
+    srcs: ["lib64/vendor.samsung.hardware.light-V1-ndk_platform.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_vendor_unisoc_hardware_power_V1_ndk_platform_so",
+    srcs: ["lib64/vendor.unisoc.hardware.power-V1-ndk_platform.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libcrypto_km_so",
+    srcs: ["lib64/libcrypto_km.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libskeymaster4device_so",
+    srcs: ["lib64/libskeymaster4device.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libhyper_so",
+    srcs: ["lib64/libhyper.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libjsoncpp_v30_so",
+    srcs: ["lib64/libjsoncpp_v30.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libcomposer_res21_v30_so",
+    srcs: ["lib64/libcomposer_res21_v30.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libcomposer_res22_v30_so",
+    srcs: ["lib64/libcomposer_res22_v30.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_bin_hw_android_hardware_graphics_composer_2_3_service",
+    srcs: ["bin/hw/android.hardware.graphics.composer@2.3-service"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_liblte",
+    srcs: ["lib/liblte.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libtinyxml2_v30_so",
+    srcs: ["lib64/libtinyxml2_v30.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_hw_enhance_ums512_so",
+    srcs: ["lib64/hw/enhance.ums512.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.wifi.supplicant@1.0",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.wifi.supplicant@1.0.so"],
+    shared_libs: [
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.wifi.supplicant@1.1",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.wifi.supplicant@1.1.so"],
+    shared_libs: [
+        "android.hardware.wifi.supplicant@1.0",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.wifi.supplicant@1.2",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.wifi.supplicant@1.2.so"],
+    shared_libs: [
+        "android.hardware.wifi.supplicant@1.0",
+        "android.hardware.wifi.supplicant@1.1",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.wifi.supplicant@1.3",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.wifi.supplicant@1.3.so"],
+    shared_libs: [
+        "android.hardware.wifi.supplicant@1.0",
+        "android.hardware.wifi.supplicant@1.1",
+        "android.hardware.wifi.supplicant@1.2",
+        "android.hardware.wifi@1.0",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.wifi.hostapd@1.0",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.wifi.hostapd@1.0.so"],
+    shared_libs: [
+        "android.hardware.wifi.supplicant@1.0",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.wifi.hostapd@1.1",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.wifi.hostapd@1.1.so"],
+    shared_libs: [
+        "android.hardware.wifi.hostapd@1.0",
+        "android.hardware.wifi.supplicant@1.0",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.wifi.hostapd@1.2",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.wifi.hostapd@1.2.so"],
+    shared_libs: [
+        "android.hardware.wifi.hostapd@1.0",
+        "android.hardware.wifi.hostapd@1.1",
+        "android.hardware.wifi.supplicant@1.0",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.dumpstate@1.0",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.dumpstate@1.0.so"],
+    shared_libs: [
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.dumpstate@1.1",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "64",
+    srcs: ["lib64/android.hardware.dumpstate@1.1.so"],
+    shared_libs: [
+        "android.hardware.dumpstate@1.0",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.memtrack@1.0",
+    owner: "samsung",
+    vendor_available: true,
+    prefer: true,
+    compile_multilib: "both",
+    arch: {
+        arm: {
+            srcs: ["lib/android.hardware.memtrack@1.0.so"],
+        },
+        arm64: {
+            srcs: ["lib64/android.hardware.memtrack@1.0.so"],
+        },
+    },
+    shared_libs: [
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+}
+
+prebuilt_hidl_interfaces {
+    name: "gta8wifi_vendor_hidl_interfaces",
+    interfaces: [
+        "android.hardware.memtrack@1.0::IMemtrack",
+        "android.hardware.dumpstate@1.0::IDumpstateDevice",
+        "android.hardware.dumpstate@1.1::IDumpstateDevice",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.ums512",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_hw_camera_ums512_so",
+            ],
+            shared_libs: [
+        "libion_sprd",
+                "libui_shim_gta8wifi",
+                "liblog",
+                "libxml2",
+                "libmempool",
+                "libjsoncpp",
+                "libsensorndkbridge",
+                        "libpowerhal_cli",
+                "libutils",
+                "libmemion",
+                "libcutils",
+                "libhardware",
+                "libcamera_metadata",
+                "libui",
+                "libbinder",
+                "libcamsensor",
+                "libcamoem",
+                "libinterface",
+                "libinfo",
+                "libverify",
+                "libkey",
+                "libcamcommon",
+                "libcamdrv",
+                "libcppdrv",
+                "libsprdfa",
+                "libsprdfd",
+                "libsprdfd_hw",
+                "libsprdfarcnn",
+                "libbokeh_gaussian",
+                "libbokeh_gaussian_cap",
+                "libTfliteWrapper",
+                "libSegLite",
+                "libBokeh2Frames",
+                "libXMPCore",
+                "libXMPFiles",
+                "libsprdbokeh",
+                "libsprddepth",
+                "libbokeh_depth",
+                "libbokeh_depth_adapter",
+                "libsprdbokeh_adapter",
+                "libsprddepthadapter",
+                "libceres_online",
+                "libDualCam_OnliCalib",
+                "libgoldencali_arcsoftsep",
+                "libarcsoft_dualcam_refocus_video",
+                "libarcsoft_dualcam_refocus_image",
+                "libarcsoft_beauty_performance",
+                "libmpbase",
+                "libsprd_portrait_cap",
+                "libSegLiteMNN",
+                "libcamlpt",
+                "liblightportrait",
+                "libcamdfa",
+                "libdfa",
+                "libsprd_portrait_cap_adapter",
+                "libbokeh_gaussian_adapter",
+                "libsprdportraitsceneadapter",
+                "libportrait_scene_prev",
+                "libportrait_scene_cap",
+                "libWT",
+                "libsprdwtadapter",
+                "libyuv",
+                "libyuv420_scaler",
+                "libsprdcamalgassist",
+                "libcam_ipmpro",
+                "libDefog",
+                "libcamperf",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio.effect@2.0-impl",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_hw_android_hardware_audio_effect_2_0_impl_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libeffects",
+                "libfmq",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libutils",
+                "android.hardware.audio.common-util",
+                "android.hidl.memory@1.0",
+                "android.hardware.audio.common@2.0",
+                "android.hardware.audio.common@2.0-util-v30",
+                "android.hardware.audio.effect@2.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_hw_android_hardware_audio_effect_2_0_impl_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libeffects",
+                "libfmq",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libutils",
+                "android.hardware.audio.common-util",
+                "android.hidl.memory@1.0",
+                "android.hardware.audio.common@2.0",
+                "android.hardware.audio.common@2.0-util-v30",
+                "android.hardware.audio.effect@2.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio.effect@6.0-impl",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_hw_android_hardware_audio_effect_6_0_impl_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libeffects",
+                "libfmq",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libutils",
+                "android.hardware.audio.common-util",
+                "android.hidl.memory@1.0",
+                "android.hardware.audio.common@6.0",
+                "android.hardware.audio.common@6.0-util-v30",
+                "android.hardware.audio.effect@6.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_hw_android_hardware_audio_effect_6_0_impl_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libeffects",
+                "libfmq",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libutils",
+                "android.hardware.audio.common-util",
+                "android.hidl.memory@1.0",
+                "android.hardware.audio.common@6.0",
+                "android.hardware.audio.common@6.0-util-v30",
+                "android.hardware.audio.effect@6.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio@2.0-impl",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_hw_android_hardware_audio_2_0_impl_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libmedia_helper_v30",
+                "libutils",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio@2.0",
+                "android.hardware.audio.common@2.0",
+                "android.hardware.audio.common@2.0-util-v30",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_hw_android_hardware_audio_2_0_impl_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libmedia_helper_v30",
+                "libutils",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio@2.0",
+                "android.hardware.audio.common@2.0",
+                "android.hardware.audio.common@2.0-util-v30",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio@6.0-impl",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_hw_android_hardware_audio_6_0_impl_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libmedia_helper_v30",
+                "libutils",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio@6.0",
+                "android.hardware.audio.common@6.0",
+                "android.hardware.audio.common@6.0-util-v30",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_hw_android_hardware_audio_6_0_impl_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libmedia_helper_v30",
+                "libutils",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio@6.0",
+                "android.hardware.audio.common@6.0",
+                "android.hardware.audio.common@6.0-util-v30",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "enhance.ums512",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "lib/hw/enhance.ums512.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libtinyxml2",
+                "libhardware",
+                "libcutils",
+                "libWhite_point_shift",
+                "libomx_cabc_sprd",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_hw_enhance_ums512_so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libtinyxml2_v30",
+                "libhardware",
+                "libcutils",
+                "libWhite_point_shift",
+                "libomx_cabc_sprd",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "hwcomposer.ums512",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_hw_hwcomposer_ums512_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "liblog",
+                "libEGL",
+                "libmemion",
+                "libutils",
+                "libcutils",
+                "libGLESv1_CM",
+                "libGLESv2",
+                "libhardware",
+                "libui",
+                "libsync",
+                "libnativewindow",
+                "libhidlbase",
+                "libpowerhal_cli",
+                "libbase",
+                "vendor.sprd.hardware.enhance@1.0",
+                "libbinder",
+                "libdrm",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_hw_hwcomposer_ums512_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "liblog",
+                "libEGL",
+                "libmemion",
+                "libutils",
+                "libcutils",
+                "libGLESv1_CM",
+                "libGLESv2",
+                "libhardware",
+                "libui",
+                "libsync",
+                "libnativewindow",
+                "libhidlbase",
+                "libpowerhal_cli",
+                "libbase",
+                "vendor.sprd.hardware.enhance@1.0",
+                "libbinder",
+                "libdrm",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liblte",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_liblte",
+            ],
+            shared_libs: [
+                "libc",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libm",
+                "libc++",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "lib64/liblte.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libm",
+                "libc++",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libpowerhal_cli",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libpowerhal_cli_so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libbinder",
+                "libbinder_ndk",
+                "android.hardware.power-V1-ndk",
+                "vendor.unisoc.hardware.power-V1-ndk_platform",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libpowerhal_cli_so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libbinder",
+                "libbinder_ndk",
+                "android.hardware.power-V1-ndk",
+                "vendor.unisoc.hardware.power-V1-ndk_platform",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohal@5.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libsprdaudiohal_5_0_so",
+            ],
+            shared_libs: [
+                "android.hardware.audio.common-util",
+                "android.hidl.allocator@1.0",
+                "android.hidl.memory@1.0",
+                "libaudiofoundation",
+                "libsprdaudiohal_deathhandlerv6",
+                "libaudioutils",
+                "libbase",
+                "libbinder",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libmedia_helper",
+                "libutils",
+                "android.hardware.audio.common@5.0",
+                "android.hardware.audio.common@5.0-util-v30",
+                "android.hardware.audio.effect@5.0",
+                "android.hardware.audio@5.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libsprdaudiohal_5_0_so",
+            ],
+            shared_libs: [
+                "android.hardware.audio.common-util",
+                "android.hidl.allocator@1.0",
+                "android.hidl.memory@1.0",
+                "libaudiofoundation",
+                "libsprdaudiohal_deathhandlerv6",
+                "libaudioutils",
+                "libbase",
+                "libbinder",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libmedia_helper",
+                "libutils",
+                "android.hardware.audio.common@5.0",
+                "android.hardware.audio.common@5.0-util-v30",
+                "android.hardware.audio.effect@5.0",
+                "android.hardware.audio@5.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohal@6.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libsprdaudiohal_6_0_so",
+            ],
+            shared_libs: [
+                "android.hardware.audio.common-util",
+                "android.hidl.allocator@1.0",
+                "android.hidl.memory@1.0",
+                "libaudiofoundation",
+                "libsprdaudiohal_deathhandlerv6",
+                "libaudioutils",
+                "libbase",
+                "libbinder",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libmedia_helper",
+                "libutils",
+                "android.hardware.audio.common@6.0",
+                "android.hardware.audio.common@6.0-util-v30",
+                "android.hardware.audio.effect@6.0",
+                "android.hardware.audio@6.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libsprdaudiohal_6_0_so",
+            ],
+            shared_libs: [
+                "android.hardware.audio.common-util",
+                "android.hidl.allocator@1.0",
+                "android.hidl.memory@1.0",
+                "libaudiofoundation",
+                "libsprdaudiohal_deathhandlerv6",
+                "libaudioutils",
+                "libbase",
+                "libbinder",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libmedia_helper",
+                "libutils",
+                "android.hardware.audio.common@6.0",
+                "android.hardware.audio.common@6.0-util-v30",
+                "android.hardware.audio.effect@6.0",
+                "android.hardware.audio@6.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_av1dec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_av1dec_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libstagefright_sprd_av1dec_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx",
+                "libstagefright_foundation",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.unisoc.hardware.power-V1-ndk_platform",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_vendor_unisoc_hardware_power_V1_ndk_platform_so",
+            ],
+            shared_libs: [
+                "android.hardware.power-V1-ndk",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_vendor_unisoc_hardware_power_V1_ndk_platform_so",
+            ],
+            shared_libs: [
+                "android.hardware.power-V1-ndk",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_deintl",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_deintl_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_h264dec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_h264dec_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libcutils",
+                "libstagefright_sprd_deintl",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_h264enc",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_h264enc_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libyuv",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_h265dec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_h265dec_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libmedia_omx",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_h265enc",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_h265enc_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libmedia_omx",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libyuv",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_mpeg4dec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_mpeg4dec_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libmedia_omx",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_mpeg4enc",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_mpeg4enc_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_vp9dec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_vp9dec_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libmedia_omx",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_vpxdec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_vpxdec_so",
+            ],
+            shared_libs: [
+                "libui_shim_gta8wifi",
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libmemion",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwvhidl",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libwvhidl_so",
+            ],
+            shared_libs: [
+                "libsec_ssl_shim",
+                "android.hardware.drm@1.0",
+                "android.hardware.drm@1.1",
+                "android.hardware.drm@1.2",
+                "android.hardware.drm@1.3",
+                "android.hidl.memory@1.0",
+                "libbase",
+                "libcrypto",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwvdrmengine",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_mediadrm_libwvdrmengine_so",
+            ],
+            shared_libs: [
+                "libsec_ssl_shim",
+                "libbase",
+                "libcrypto",
+                "liblog",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
+                "libstagefright_foundation",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    relative_install_path: "mediadrm",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libSecC2ComponentStore",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libSecC2ComponentStore_so",
+            ],
+            shared_libs: [
+                "libc2_shim_gta8wifi",
+                "android.hardware.media.c2@1.0",
+                "android.hardware.graphics.allocator@2.0",
+                "android.hardware.graphics.allocator@3.0",
+                "android.hardware.graphics.bufferqueue@2.0",
+                "android.hardware.graphics.mapper@2.0",
+                "android.hardware.graphics.mapper@3.0",
+                "android.hardware.media.bufferpool@2.0",
+                "libcodec2_hidl@1.0",
+                "libcodec2_vndk",
+                "libbase",
+                "libbinder",
+                "libcutils",
+                "libhardware",
+                "libhidlbase",
+                "libion",
+                "libfmq",
+                "liblog",
+                "libnativewindow",
+                "libstagefright_foundation",
+                "libstagefright_bufferpool@2.0.1",
+                "libui",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_sec_aacdec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libcodec2_sec_aacdec_so",
+            ],
+            shared_libs: [
+                "libc2_shim_gta8wifi",
+                "libbase",
+                "libcodec2",
+                "libcodec2_vndk",
+                "libSecC2ComponentStore",
+                "libcodec2_soft_common",
+                "libcodec2_sec_soft_common",
+                "libcutils",
+                "liblog",
+                "libsfplugin_ccodec_utils",
+                "libstagefright_foundation",
+                "libsavsac",
+                "libsomxcmn",
+                "libsavscmn",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_sec_imadec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libcodec2_sec_imadec_so",
+            ],
+            shared_libs: [
+                "libsec_ima_shim",
+                "libbase",
+                "libcodec2",
+                "libcodec2_vndk",
+                "libSecC2ComponentStore",
+                "libcodec2_sec_soft_common",
+                "libcutils",
+                "liblog",
+                "libsfplugin_ccodec_utils",
+                "libstagefright_foundation",
+                "libsavsac",
+                "libsavscmn",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhyper_vnd",
+    stem: "libhyper",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libhyper_so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "libhardware",
+                "liblog",
+                "libbase",
+                "libjsoncpp_v30",
+                "libcrypto_km",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.samsung.hardware.light-V1-ndk_platform",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_vendor_samsung_hardware_light_V1_ndk_platform_so",
+            ],
+            shared_libs: [
+                "android.hardware.light-V1-ndk",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "applypatch",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_bin_applypatch",
+            ],
+            shared_libs: [
+                "libsec_base_shim",
+                "libbase",
+                "libcrypto",
+                "liblog",
+                "libz",
+                "libziparchive",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.graphics.composer@2.3-service",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_bin_hw_android_hardware_graphics_composer_2_3_service",
+            ],
+            shared_libs: [
+                "libcomposer_res21_v30",
+                "libcomposer_res22_v30",
+                "android.hardware.graphics.composer@2.1",
+                "android.hardware.graphics.composer@2.2",
+                "android.hardware.graphics.composer@2.3",
+                "libbase",
+                "libbinder",
+                "libcutils",
+                "libfmq",
+                "libhardware",
+                "libhidlbase",
+                "libhwc2on1adapter",
+                "libhwc2onfbadapter",
+                "liblog",
+                "libsync",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.power.stats@1.0-service.mock",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_bin_hw_android_hardware_power_stats_1_0_service_mock",
+            ],
+            shared_libs: [
+                "libsec_base_shim",
+                "libbase",
+                "libcutils",
+                "libfmq",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "android.hardware.power.stats@1.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "vendor.samsung.hardware.light-service",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_bin_hw_vendor_samsung_hardware_light_service",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder_ndk",
+                "android.hardware.light-V1-ndk",
+                "vendor.samsung.hardware.light-V1-ndk_platform",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.broadcastradio@2.0-service",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_bin_hw_vendor_sprd_hardware_broadcastradio_2_0_service",
+            ],
+            shared_libs: [
+                "libsec_base_shim",
+                "liblog",
+                "libbase",
+                "libhardware",
+                "libhidlbase",
+                "libutils",
+                "android.hardware.broadcastradio@2.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "vendor.unisoc.hardware.power-service",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_bin_hw_vendor_unisoc_hardware_power_service",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder",
+                "libbinder_ndk",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "android.hardware.power-V1-ndk",
+                "vendor.unisoc.hardware.power-V1-ndk_platform",
+                "power.sprd",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "wpa_supplicant",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_bin_hw_wpa_supplicant",
+            ],
+            shared_libs: [
+                "libsec_ssl_shim",
+                "libcutils",
+                "liblog",
+                "libcrypto",
+                "libssl",
+                "libkeystore-wifi-hidl",
+                "libkeystore-engine-wifi-hidl",
+                "libnl",
+                "android.hardware.wifi.supplicant@1.0",
+                "android.hardware.wifi.supplicant@1.1",
+                "android.hardware.wifi.supplicant@1.2",
+                "android.hardware.wifi.supplicant@1.3",
+                "libhidlbase",
+                "libutils",
+                "libbase",
+                "vendor.samsung.hardware.wifi.supplicant@3.0",
+                "libsecnativefeature",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "systemDebuggerd",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_bin_systemDebuggerd",
+            ],
+            shared_libs: [
+                "libsec_base_shim",
+                "liblog",
+                "libbase",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcrypto_km",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libcrypto_km_so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjsoncpp_v30",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libjsoncpp_v30_so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcomposer_res21_v30",
+    owner: "samsung",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libcomposer_res21_v30_so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.composer@2.1",
+                "android.hardware.graphics.mapper@2.0",
+                "android.hardware.graphics.mapper@3.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libcutils",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+}
+
+cc_prebuilt_library_shared {
+    name: "libcomposer_res22_v30",
+    owner: "samsung",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libcomposer_res22_v30_so",
+            ],
+            shared_libs: [
+                "libcomposer_res21_v30",
+                "android.hardware.graphics.composer@2.2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+}
+
+cc_prebuilt_library_shared {
+    name: "libtinyxml2_v30",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                ":gta8wifi_vfix_lib64_libtinyxml2_v30_so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmedia_helper_v30",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "lib/libmedia_helper_v30.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "lib64/libmedia_helper_v30.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio.common@2.0-util-v30",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "lib/android.hardware.audio.common@2.0-util-v30.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libhidlbase",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio.common@2.0",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "lib64/android.hardware.audio.common@2.0-util-v30.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libhidlbase",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio.common@2.0",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio.common@5.0-util-v30",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "lib/android.hardware.audio.common@5.0-util-v30.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libhidlbase",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio.common@5.0",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "lib64/android.hardware.audio.common@5.0-util-v30.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libhidlbase",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio.common@5.0",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio.common@6.0-util-v30",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "lib/android.hardware.audio.common@6.0-util-v30.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libhidlbase",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio.common@6.0",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "lib64/android.hardware.audio.common@6.0-util-v30.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libhidlbase",
+                "android.hardware.audio.common-util",
+                "android.hardware.audio.common@6.0",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_mp3dec_so",
+    srcs: ["lib/libstagefright_sprd_mp3dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_mp3dec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_mp3dec_so",
+            ],
+            shared_libs: [
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libmemion",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_sprd_mp3enc_so",
+    srcs: ["lib/libstagefright_sprd_mp3enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_mp3enc",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_sprd_mp3enc_so",
+            ],
+            shared_libs: [
+                "libstagefright_omx_v30",
+                "libstagefright_omx_utils_v30",
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libutils",
+                "libui",
+                "libbinder",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}

@@ -1,0 +1,13 @@
+cc_library_shared {
+    name: "audio.bluetooth.ums512_gta8wifi",
+    stem: "audio.bluetooth.ums512",
+    vendor: true,
+    relative_install_path: "hw",
+    srcs: ["main.cpp"],
+    header_libs: ["libhardware_headers"],
+    shared_libs: [
+        "libbinder_ndk",
+        "liblog",
+        "android.hardware.bluetooth.audio-impl",
+    ],
+}

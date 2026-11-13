@@ -1,0 +1,10 @@
+service vendor.power-aot /vendor/bin/hw/vendor.gta8wifi.power-aot
+    class hal
+    user system
+    group system
+    disabled
+    oneshot
+
+on zygote-start
+    start vendor.power-default
+    start vendor.power-aot

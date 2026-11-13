@@ -1,0 +1,17 @@
+sys.camera.opticalzoom u:object_r:cam_prop:s0 exact string
+sys.camera.opticalzoomth u:object_r:cam_prop:s0 exact string
+persist.sys.cam. u:object_r:cam_prop:s0 prefix string
+persist.sys.cam3. u:object_r:cam_prop:s0 prefix string
+ro.csc.country_code                      u:object_r:csc_prop:s0
+ro.csc.countryiso_code                   u:object_r:csc_prop:s0
+ro.csc.omcnw_code                        u:object_r:csc_prop:s0
+ro.csc.omcnw_code2                       u:object_r:csc_prop:s0
+ro.csc.sales_code                        u:object_r:csc_prop:s0
+ro.csc.facebook.partnerid                u:object_r:csc_prop:s0
+ro.csc.oath.partnerid                      u:object_r:csc_prop:s0
+ro.csc.amazon.partnerid                    u:object_r:csc_prop:s0
+ro.csc.rsuenabled            u:object_r:csc_prop:s0
+ro.csc.spotify.music.partnerid                u:object_r:csc_prop:s0
+ro.csc.spotify.music.referrerid                u:object_r:csc_prop:s0
+persist.front.camera.mirror u:object_r:cam_prop:s0 exact string
+service.camera.client u:object_r:exported_system_prop:s0 exact string

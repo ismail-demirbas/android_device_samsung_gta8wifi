@@ -1,0 +1,36 @@
+cc_binary {
+    name: "folio_daemon",
+
+    srcs: ["main.cpp"],
+
+    init_rc: ["folio-daemon.rc"],
+
+    shared_libs: [
+        "libcutils",
+        "liblog",
+    ],
+
+    cflags: [
+        "-DLOG_TAG=\"folio_daemon\"",
+        "-DLOG_NDEBUG=0",
+        "-Wall",
+        "-Werror",
+    ],
+
+    owner: "google",
+}
+
+android_app {
+    name: "folio-daemon_Settings",
+
+    srcs: ["src/**/*.java"],
+
+    platform_apis: true,
+    certificate: "platform",
+    system_ext_specific: true,
+    privileged: true,
+
+    static_libs: [
+        "SettingsLibTile",
+    ],
+}

@@ -1,0 +1,9 @@
+android_app {
+    name: "SwapfileSettings_gta8wifi",
+    srcs: ["src/**/*.java"],
+    platform_apis: true,
+    certificate: "platform",
+    system_ext_specific: true,
+    privileged: true,
+    static_libs: ["SettingsLibTile"],
+}

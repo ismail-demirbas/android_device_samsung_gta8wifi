@@ -1,0 +1,4 @@
+service charger_bl /system/bin/charger_bl_daemon
+    class charger
+    user root
+    group system input

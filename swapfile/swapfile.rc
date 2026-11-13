@@ -1,0 +1,19 @@
+service swapfile /system_ext/bin/swapfile.sh
+    user root
+    group root system
+    oneshot
+    disabled
+    seclabel u:r:swapfile:s0
+
+service swapfile_off /system_ext/bin/swapfile.sh off
+    user root
+    group root system
+    oneshot
+    disabled
+    seclabel u:r:swapfile:s0
+
+on property:sys.boot_completed=1 && property:persist.sys.swapfile.enabled=1
+    start swapfile
+
+on property:sys.boot_completed=1 && property:persist.sys.swapfile.enabled=0
+    start swapfile_off

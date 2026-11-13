@@ -1,0 +1,36 @@
+cc_binary {
+    name: "android.hardware.biometrics.face-service.samsung",
+    vendor: true,
+    relative_install_path: "hw",
+    init_rc: ["face-samsung.rc"],
+    vintf_fragment_modules: ["android.hardware.biometrics.face-service.samsung.vintf"],
+    cflags: ["-Wno-error"],
+    srcs: ["main.cpp", "Session.cpp"],
+    shared_libs: [
+        "libbinder",
+        "libnativewindow",
+        "android.hardware.biometrics.face@1.0",
+        "vendor.samsung.hardware.biometrics.face@2.0",
+        "android.hidl.token@1.0-utils",
+        "android.hardware.graphics.bufferqueue@1.0",
+        "libgui_vendor",
+        "libbase",
+        "libbinder_ndk",
+        "libcutils",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+    ],
+    static_libs: [
+        "android.hardware.biometrics.common-V4-ndk",
+        "android.hardware.biometrics.face-V5-ndk",
+        "android.hardware.common-V2-ndk",
+        "android.hardware.keymaster-V4-ndk",
+    ],
+}
+
+vintf_fragment {
+    name: "android.hardware.biometrics.face-service.samsung.vintf",
+    src: "face-samsung.xml",
+    vendor: true,
+}

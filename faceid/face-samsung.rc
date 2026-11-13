@@ -1,0 +1,5 @@
+service vendor.face-samsung-aidl /vendor/bin/hw/android.hardware.biometrics.face-service.samsung
+    class late_start
+    user system
+    group system input
+    interface aidl android.hardware.biometrics.face.IFace/default

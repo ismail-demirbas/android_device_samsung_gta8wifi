@@ -1,0 +1,4 @@
+PRODUCT_PACKAGES += libstagefright_omx_v30 libstagefright_omx_utils_v30
+PRODUCT_PACKAGES += libstagefright_omx_vendor libstagefright_bufferqueue_helper_vendor libgb_new_shim_gta8wifi
+PRODUCT_PACKAGES += libstagefright_foundation_v30 libstagefrighthw
+PRODUCT_PACKAGES += libsprd_omx_core

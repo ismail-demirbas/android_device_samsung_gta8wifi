@@ -1,0 +1,71 @@
+#line 1 "device/sprd/mpool/sepolicy/vendor/service_contexts"
+#phasechecknative                          u:object_r:phasecheck_service:s0
+#addon                                     u:object_r:addon_service:s0
+#phone_ex                                  u:object_r:radio_service:s0
+#ismsEx                                    u:object_r:radio_service:s0
+#iphonesubinfoEx                           u:object_r:radio_service:s0
+#ims_ex                                    u:object_r:radio_service:s0
+#ims_ut_ex                                 u:object_r:radio_service:s0
+#atchannel                                 u:object_r:radio_service:s0
+# move fm to plat_sepolicy
+
+#simphonebookEx                            u:object_r:radio_service:s0
+#sprd_phone                                u:object_r:radio_service:s0
+#iglobalconfig                             u:object_r:radio_service:s0
+#irit                                      u:object_r:radio_service:s0
+#carrier_config_ex                         u:object_r:radio_service:s0
+#powerguru                                 u:object_r:powerguru_service:s0
+#power_ex                                  u:object_r:power_ex_service:s0
+#line 1 "device/sprd/mpool/module/media/msepolicy/vendor/service_contexts"
+#fm                                        u:object_r:mediaserver_service:s0
+#line 1 "vendor/samsung/system/sepolicy/samsung/service_contexts"
+# Due to AIDL HAL introduction, vendors can publish services
+# with servicemanager. vendor_service_contexts is labeled as
+# vendor_service_contexts_file, not nonplat_service_contexts_file.
+# And pack it to vendor partition.
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3993
+vendor.samsung.hardware.light.ILights/default            u:object_r:hal_light_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3902
+vendor.samsung.hardware.base.ISehBase/default            u:object_r:hal_base_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4117
+vendor.samsung.hardware.hyper.ISehHyPer/default      u:object_r:hal_hyper_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4208
+vendor.samsung.hardware.uwb@1.0::ISehUwb/default      u:object_r:hal_uwb_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-6118
+vendor.samsung.hardware.media.converter.ISehColorConverterStore/default      u:object_r:hal_converter_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-6133
+vendor.samsung.hardware.media.mpp.ISehMppStore/default		u:object_r:hal_mpp_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4260
+vendor.samsung.frameworks.codecsolution.ISehCodecSolution/default      u:object_r:aidl_codecsolution_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-6241
+vendor.samsung.hardware.gnss.ISehGnss/default                u:object_r:hal_gnss_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-6234
+vendor.samsung.hardware.kpm.ISehKpm/default      u:object_r:hal_kpm_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-6460
+vendor.samsung.hardware.security.hdcp.wifidisplay.ISehHdcp/default                u:object_r:hal_hdcp_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-9820
+vendor.samsung.hardware.bluetooth.audio.ISehBluetoothAudioProviderFactory/default		u:object_r:hal_bluetooth_audio_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-10157
+vendor.samsung.hardware.security.widevine.keyprovisioning.ISehWidevineKeyProvisioning/default			  u:object_r:hal_wvkprov_service:s0
+vendor.samsung.hardware.security.widevine.keyprov.ISehWidevineKeyProv/default			                  u:object_r:hal_wvkprov_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-10158
+vendor.samsung.hardware.security.fkeymaster.ISehFkeymaster/default                u:object_r:hal_fkey_service:s0
+#line 1 "system/sepolicy/reqd_mask/service_contexts"
+# empty service_contexts file - this file is used to generate an empty
+# non-platform service_context for devices without any service_contexts
+# customizations.
+vendor.lineage.health.IChargingControl/default u:object_r:hal_lineage_health_service:s0
+vendor.lineage.health.IFastCharge/default u:object_r:hal_lineage_health_service:s0

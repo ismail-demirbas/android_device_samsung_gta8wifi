@@ -1,0 +1,11 @@
+cc_prebuilt_library_shared {
+    name: "libion_sprd",
+    owner: "samsung",
+    vendor: true,
+    strip: { none: true },
+    check_elf_files: false,
+    target: {
+        android_arm: { srcs: ["lib/libion_sprd.so"] },
+        android_arm64: { srcs: ["lib64/libion_sprd.so"] },
+    },
+}

@@ -1,0 +1,2 @@
+allow hal_face_default hal_face_hwservice:hwservice_manager find;
+allow hal_face_default hal_face_service:service_manager add;

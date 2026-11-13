@@ -1,0 +1,2 @@
+allow charger gpu_device:chr_file rw_file_perms;
+allow charger self:capability2 wake_alarm;

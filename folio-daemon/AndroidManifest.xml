@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.folio"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <application android:label="Folio Daemon">
+
+        <provider
+            android:name=".FolioDaemonProvider"
+            android:authorities="org.lineageos.folio.entries"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+
+        </provider>
+
+    </application>
+</manifest>

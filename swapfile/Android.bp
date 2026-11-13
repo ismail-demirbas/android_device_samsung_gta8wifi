@@ -1,0 +1,14 @@
+sh_binary {
+    name: "swapfile_gta8wifi",
+    src: "swapfile.sh",
+    filename: "swapfile.sh",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "swapfile_rc_gta8wifi",
+    src: "swapfile.rc",
+    filename: "swapfile.rc",
+    sub_dir: "init",
+    system_ext_specific: true,
+}

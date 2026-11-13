@@ -1,0 +1,2 @@
+type charger_bl_exec, system_file_type, exec_type, file_type;
+domain_auto_trans(init, charger_bl_exec, charger)

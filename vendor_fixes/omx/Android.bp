@@ -1,0 +1,284 @@
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_omx_utils_v30_so",
+    srcs: ["lib/libstagefright_omx_utils_v30.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_omx_utils_v30",
+    stem: "libstagefright_omx_utils_v30",
+    srcs: [":gta8wifi_vfix_lib_libstagefright_omx_utils_v30_so"],
+    compile_multilib: "32",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+    shared_libs: [
+        "libmedia_omx",
+        "libstagefright_foundation",
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_omx_v30_so",
+    srcs: ["lib/libstagefright_omx_v30.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_omx_v30",
+    stem: "libstagefright_omx_v30",
+    srcs: [":gta8wifi_vfix_lib_libstagefright_omx_v30_so"],
+    compile_multilib: "32",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libmedia_omx",
+        "libutils",
+        "liblog",
+        "libui",
+        "libgb_new_shim_gta8wifi",
+        "libcutils",
+        "libstagefright_foundation",
+        "libstagefright_bufferqueue_helper_vendor",
+        "libstagefright_xmlparser",
+        "libhidlbase",
+        "libhidlmemory",
+        "libvndksupport",
+        "android.hardware.media.omx@1.0",
+        "android.hardware.graphics.bufferqueue@1.0",
+        "libstagefright_omx_utils_v30",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_omx_vendor_so",
+    srcs: ["lib/libstagefright_omx_vendor.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_omx_vendor",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_omx_vendor_so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder",
+                "libmedia_omx",
+                "libutils",
+                "liblog",
+                "libui",
+                "libgb_new_shim_gta8wifi",
+                "libcutils",
+                "libstagefright_foundation_v30",
+                "libstagefright_bufferqueue_helper_vendor",
+                "libstagefright_xmlparser",
+                "libhidlbase",
+                "libhidlmemory",
+                "libvndksupport",
+                "android.hardware.media.omx@1.0",
+                "android.hardware.graphics.bufferqueue@1.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_bufferqueue_helper_vendor_so",
+    srcs: ["lib/libstagefright_bufferqueue_helper_vendor.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_bufferqueue_helper_vendor",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                ":gta8wifi_vfix_lib_libstagefright_bufferqueue_helper_vendor_so",
+            ],
+            shared_libs: [
+                "libcodecsolutionhelper_vendor",
+                "libbase",
+                "libcutils",
+                "libhidlbase",
+                "libhidlmemory",
+                "liblog",
+                "libstagefright_foundation_v30",
+                "libui",
+                "libgb_new_shim_gta8wifi",
+                "libutils",
+                "android.hardware.graphics.bufferqueue@1.0",
+                "android.hardware.graphics.bufferqueue@2.0",
+                "android.hidl.token@1.0-utils",
+                "libEGL",
+                "libnativewindow",
+                "libvndksupport",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefright_foundation_v30_so",
+    srcs: ["lib/libstagefright_foundation_v30.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_foundation_v30",
+    stem: "libstagefright_foundation_v30",
+    srcs: [":gta8wifi_vfix_lib_libstagefright_foundation_v30_so"],
+    compile_multilib: "32",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+    shared_libs: [
+        "libutils",
+        "libcutils",
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libstagefrighthw_so",
+    srcs: ["lib/libstagefrighthw.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libstagefrighthw_so",
+    srcs: ["lib64/libstagefrighthw.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefrighthw",
+    stem: "libstagefrighthw",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [":gta8wifi_vfix_lib_libstagefrighthw_so"],
+            shared_libs: [
+                "libpowerhal_cli",
+                "libmemion",
+                "libutils",
+                "libcutils",
+                "libui",
+                "libstagefright_foundation_v30",
+                "liblog",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [":gta8wifi_vfix_lib64_libstagefrighthw_so"],
+            shared_libs: [
+                "libpowerhal_cli",
+                "libmemion",
+                "libutils",
+                "libcutils",
+                "libui",
+                "libstagefright_foundation",
+                "liblog",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib_libsprd_omx_core_so",
+    srcs: ["lib/libsprd_omx_core.so"],
+}
+
+filegroup {
+    name: "gta8wifi_vfix_lib64_libsprd_omx_core_so",
+    srcs: ["lib64/libsprd_omx_core.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "libsprd_omx_core",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [":gta8wifi_vfix_lib_libsprd_omx_core_so"],
+            shared_libs: [
+                "libstagefright_foundation_v30",
+                "libstagefrighthw",
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [":gta8wifi_vfix_lib64_libsprd_omx_core_so"],
+            shared_libs: [
+                "libstagefright_foundation",
+                "libstagefrighthw",
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}

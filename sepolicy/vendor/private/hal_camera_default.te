@@ -1,0 +1,3 @@
+set_prop(hal_camera_default, cam_prop)
+get_prop(hal_camera_default, cam_prop)
+get_prop(hal_camera_default, csc_prop)

@@ -1,0 +1,222 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+soong_namespace {
+    imports: [
+        "vendor/samsung/gta8wifi",
+    ],
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_firmware_audio_structure",
+    soc_specific: true,
+    installed_location: "firmware/audio_structure",
+    symlink_target: "/data/vendor/local/media/audio_params/audio_structure",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_firmware_cvs",
+    soc_specific: true,
+    installed_location: "firmware/cvs",
+    symlink_target: "/data/vendor/local/media/audio_params/cvs",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_firmware_dsp_smartamp",
+    soc_specific: true,
+    installed_location: "firmware/dsp_smartamp",
+    symlink_target: "/data/vendor/local/media/audio_params/dsp_smartamp",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_firmware_dsp_vbc",
+    soc_specific: true,
+    installed_location: "firmware/dsp_vbc",
+    symlink_target: "/data/vendor/local/media/audio_params/dsp_vbc",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_enhance_ums512_so",
+    soc_specific: true,
+    installed_location: "lib/enhance.ums512.so",
+    symlink_target: "hw/enhance.ums512.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_hw_vulkan_ums512_so",
+    soc_specific: true,
+    installed_location: "lib/hw/vulkan.ums512.so",
+    symlink_target: "../egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_libOpenCL_so",
+    soc_specific: true,
+    installed_location: "lib/libOpenCL.so",
+    symlink_target: "libOpenCL.so.1.2",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_libOpenCL_so_1",
+    soc_specific: true,
+    installed_location: "lib/libOpenCL.so.1",
+    symlink_target: "libOpenCL.so.1.2",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_libOpenCL_so_1_1",
+    soc_specific: true,
+    installed_location: "lib/libOpenCL.so.1.1",
+    symlink_target: "libOpenCL.so.1.2",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_libOpenCL_so_1_2",
+    soc_specific: true,
+    installed_location: "lib/libOpenCL.so.1.2",
+    symlink_target: "libGLES_mali.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_npidevice_libaudionpi_so",
+    soc_specific: true,
+    installed_location: "lib/npidevice/libaudionpi.so",
+    symlink_target: "/vendor/lib/libaudionpi.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_npidevice_libcamcalitest_so",
+    soc_specific: true,
+    installed_location: "lib/npidevice/libcamcalitest.so",
+    symlink_target: "/vendor/lib/libcamcalitest.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_npidevice_libnpi_rtc_so",
+    soc_specific: true,
+    installed_location: "lib/npidevice/libnpi_rtc.so",
+    symlink_target: "/vendor/lib/libnpi_rtc.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib_npidevice_libsensornpi_so",
+    soc_specific: true,
+    installed_location: "lib/npidevice/libsensornpi.so",
+    symlink_target: "/vendor/lib/libsensornpi.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib64_enhance_ums512_so",
+    soc_specific: true,
+    installed_location: "lib64/enhance.ums512.so",
+    symlink_target: "hw/enhance.ums512.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib64_hw_vulkan_ums512_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/vulkan.ums512.so",
+    symlink_target: "../egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib64_libOpenCL_so",
+    soc_specific: true,
+    installed_location: "lib64/libOpenCL.so",
+    symlink_target: "libOpenCL.so.1.2",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib64_libOpenCL_so_1",
+    soc_specific: true,
+    installed_location: "lib64/libOpenCL.so.1",
+    symlink_target: "libOpenCL.so.1.2",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib64_libOpenCL_so_1_1",
+    soc_specific: true,
+    installed_location: "lib64/libOpenCL.so.1.1",
+    symlink_target: "libOpenCL.so.1.2",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib64_libOpenCL_so_1_2",
+    soc_specific: true,
+    installed_location: "lib64/libOpenCL.so.1.2",
+    symlink_target: "libGLES_mali.so",
+}
+
+install_symlink {
+    name: "gta8wifi_symlink_lib64_libcheckkeybox_so",
+    soc_specific: true,
+    installed_location: "lib64/libcheckkeybox.so",
+    symlink_target: "/vendor/lib64/npidevice/libcheckkeybox.so",
+}
+
+cc_library_shared {
+    name: "libui_shim_gta8wifi",
+    srcs: ["shim/gbm_shim.cpp"],
+    shared_libs: ["libui", "libcutils", "libutils", "android.hardware.graphics.common-V7-ndk"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "libc2_shim_gta8wifi",
+    srcs: ["shim/c2_shim.cpp"],
+    shared_libs: ["libcodec2_vndk", "libcodec2_soft_common", "libutils", "libcutils", "liblog", "libhardware"],
+    include_dirs: [
+        "frameworks/av/media/codec2/vndk/include",
+        "frameworks/av/media/codec2/core/include",
+    ],
+    compile_multilib: "64",
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "libsec_ssl_shim",
+    vendor: true,
+    srcs: ["shim/ssl_compat.c"],
+    shared_libs: ["libcrypto"],
+}
+
+cc_library_shared {
+    name: "libsec_base_shim",
+    vendor: true,
+    srcs: ["shim/base_shim.cpp"],
+    shared_libs: ["libbase"],
+}
+
+cc_library_shared {
+    name: "libsec_ima_shim",
+    vendor: true,
+    srcs: ["shim/ima_mime.cpp"],
+}
+
+prebuilt_etc_xml {
+    name: "gta8wifi_vendor_manifest.xml",
+    owner: "samsung",
+    src: "vintf/manifest.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "libgb_new_shim_gta8wifi",
+    srcs: ["shim/gb_new.c"],
+    vendor: true,
+    compile_multilib: "32",
+    stl: "none",
+    system_shared_libs: ["libc"],
+}
+
+prebuilt_etc {
+    name: "afc_mode.rc",
+    src: "afc_mode.rc",
+    sub_dir: "init",
+    system_ext_specific: true,
+    filename_from_src: true,
+}

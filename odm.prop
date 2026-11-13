@@ -1,0 +1,3 @@
+# Miscellaneous
+persist.sys.wifi.reset.devpath=devices/platform/sprd-wlan
+

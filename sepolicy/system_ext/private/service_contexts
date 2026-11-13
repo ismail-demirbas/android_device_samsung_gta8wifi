@@ -1,0 +1,1 @@
+android.hardware.security.sharedsecret.ISharedSecret/gatekeeper u:object_r:gatekeeper_sharedsecret_service:s0

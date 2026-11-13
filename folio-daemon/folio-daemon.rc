@@ -1,0 +1,12 @@
+on property:sys.boot_completed=1
+service vendor.folio_daemon /system/bin/folio_daemon
+    class late_start
+    user system
+    group system uhid input
+    disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.folio.enabled=1
+    start vendor.folio_daemon
+
+on property:persist.sys.folio.enabled=0
+    stop vendor.folio_daemon

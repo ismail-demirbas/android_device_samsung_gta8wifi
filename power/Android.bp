@@ -1,0 +1,23 @@
+cc_binary {
+    name: "vendor.gta8wifi.power-aot",
+    vendor: true,
+    relative_install_path: "hw",
+    init_rc: ["vendor.gta8wifi.power-aot.rc"],
+    srcs: ["main.cpp"],
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "liblog",
+    ],
+    static_libs: ["android.hardware.power-V1-ndk"],
+}
+
+cc_binary {
+    name: "charger_bl_daemon",
+    srcs: ["charger_bl.cpp"],
+    init_rc: [
+    "charger.rc",
+    "charger_bl.rc",
+],
+    cflags: ["-Wall", "-Werror"],
+}
