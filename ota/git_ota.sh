@@ -1,5 +1,5 @@
 #!/bin/bash
-RD=$(cd "$(dirname "$0")" && pwd)
+RD=$(cd "$(dirname "$0")/.." && pwd)
 cd "$RD" || exit 1
 dev=$(basename "$RD")
 OUT=$(cd "$RD/../../.." && pwd)/out/target/product/$dev
