@@ -9,6 +9,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# OTA
+PRODUCT_SYSTEM_PROPERTIES += lineage.updater.uri=https://raw.githubusercontent.com/ismail-demirbas/android_device_samsung_gta8wifi/LineageOS-24/{device}.json
+
 # fastbootd
 PRODUCT_PACKAGES += \
     libui_shim_gta8wifi \
