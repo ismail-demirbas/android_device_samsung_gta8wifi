@@ -24,7 +24,10 @@ h=hashlib.sha256()
 with open(zip,'rb') as z:
     for b in iter(lambda:z.read(1<<20),b''): h.update(b)
 sha=h.hexdigest(); size=os.path.getsize(zip)
-e={'datetime':dt,'files':[{'filename':f,'sha256':sha,'size':size,'url':f'https://github.com/{gh}/releases/download/{tag}/{f}'}],'type':typ.upper(),'version':ver}
+import zipfile
+_m=dict(x.split('=',1) for x in zipfile.ZipFile(zip).read('META-INF/com/android/metadata').decode().splitlines() if '=' in x)
+sdk=int(_m['post-sdk-level'])
+e={'datetime':dt,'files':[{'filename':f,'sha256':sha,'size':size,'os_sdk_level':sdk,'url':f'https://github.com/{gh}/releases/download/{tag}/{f}'}],'type':typ.upper(),'version':ver}
 p=f'{dev}.json'
 l=json.load(open(p)) if os.path.exists(p) else []
 l=[x for x in l if x['files'][0]['filename']!=f]+[e]
