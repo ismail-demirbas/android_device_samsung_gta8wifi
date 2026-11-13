@@ -43,7 +43,6 @@ echo "zip   : $f ($((sz/1048576)) MB)"
 echo "tag   : $tag"
 echo "title : $title"
 echo "repo  : $GH ($BR)"
-[ "$sz" -lt 2147483648 ] || echo "WARNING: over 2 GiB, GitHub may reject this file"
 read -r -p "Extra release notes (optional, Enter to skip): " extra
 [ -z "$extra" ] || printf '\n### Notes\n%s\n' "$extra" >> /tmp/ota_notes.md
 echo "----- release notes -----"; cat /tmp/ota_notes.md; echo "-------------------------"
