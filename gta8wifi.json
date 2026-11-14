@@ -1,5 +1,19 @@
 [
   {
+    "datetime": 1794673536,
+    "files": [
+      {
+        "filename": "lineage-24.0-20261114-UNOFFICIAL-gta8wifi.zip",
+        "sha256": "7ebd49526e4bb8daff98dead93630b448dd0fad422ea25db33905bb4fe57b2fa",
+        "size": 1364161845,
+        "os_sdk_level": 37,
+        "url": "https://github.com/ismail-demirbas/android_device_samsung_gta8wifi/releases/download/ota-linegeos24/lineage-24.0-20261114-UNOFFICIAL-gta8wifi.zip"
+      }
+    ],
+    "type": "UNOFFICIAL",
+    "version": "24.0"
+  },
+  {
     "datetime": 1794590023,
     "files": [
       {
