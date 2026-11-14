@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display-settings>
+    <config identifier="1" />
+    <display name="port:0" ignoreOrientationRequest="false" />
+</display-settings>

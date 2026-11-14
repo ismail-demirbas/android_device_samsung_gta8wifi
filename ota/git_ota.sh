@@ -1,4 +1,5 @@
 #!/bin/bash
+OTA_TAG=ota-linegeos24
 RD=$(cd "$(dirname "$0")/.." && pwd)
 cd "$RD" || exit 1
 dev=$(basename "$RD")
@@ -7,7 +8,7 @@ BR=$(git branch --show-current)
 GH=$(git remote get-url origin | sed -E 's#.*github.com[:/]##; s#\.git$##')
 zip=$(ls -t "$OUT"/lineage-*-"$dev".zip 2>/dev/null | head -1)
 [ -n "$zip" ] || { echo "ERROR: no zip found in $OUT"; exit 1; }
-f=$(basename "$zip"); tag=${f%.zip}; sz=$(stat -c%s "$zip")
+f=$(basename "$zip"); tag=$OTA_TAG; sz=$(stat -c%s "$zip")
 python3 - "$zip" "$dev" "$GH" "$tag" "$OUT/system/build.prop" <<'PY' || exit 1
 import sys,json,os,re,hashlib
 zip,dev,gh,tag,bp=sys.argv[1:6]

@@ -221,6 +221,7 @@ $(call inherit-product, device/samsung/gta8wifi/vendor_fixes/libion_sprd/libion_
 $(call inherit-product, device/samsung/gta8wifi/vendor_fixes/media_codecs/media_codecs.mk)
 $(call inherit-product, device/samsung/gta8wifi/vendor_fixes/omx/omx.mk)
 $(call inherit-product, device/samsung/gta8wifi/vendor_fixes/bt_audio/bt_audio.mk)
+$(call inherit-product, device/samsung/gta8wifi/vendor_fixes/display_orientation_fix/display_orientation_fix.mk)
 
 # Lineage Health
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/batt_slate_mode)
