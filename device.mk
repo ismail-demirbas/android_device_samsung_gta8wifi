@@ -39,12 +39,9 @@ PRODUCT_PACKAGES += charger_bl_daemon
 PRODUCT_PACKAGES += folio_daemon
 PRODUCT_PACKAGES += folio-daemon_Settings
 PRODUCT_PACKAGES += afc_mode.rc
-PRODUCT_PACKAGES += swapfile_gta8wifi swapfile_rc_gta8wifi
-PRODUCT_PACKAGES += SwapfileSettings_gta8wifi
 PRODUCT_PACKAGES += OtaOverlayGta8wifi
 
 PRODUCT_SYSTEM_PROPERTIES += persist.sys.folio.enabled=0
-PRODUCT_SYSTEM_PROPERTIES += persist.sys.swapfile.enabled=0
 
 # Camera2Api Temporary Fix
 PRODUCT_SYSTEM_PROPERTIES += debug.stagefright.c2inputsurface=-1
