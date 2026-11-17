@@ -71,7 +71,8 @@ PRODUCT_PACKAGES += \
     init.gta8wifi.rc \
     init.storage.rc \
     init.ums512_25c10.rc \
-    init.ums512_25c10.usb.rc
+    init.ums512_25c10.usb.rc \
+    init.flash_recovery.rc
 
 # Exclude 32 bit libraries
 PRODUCT_PACKAGES_EXCLUDE_32BIT += \

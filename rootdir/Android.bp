@@ -77,3 +77,10 @@ prebuilt_etc {
     vendor: true,
 }
 
+
+prebuilt_etc {
+    name: "init.flash_recovery.rc",
+    src: "etc/init.flash_recovery.rc",
+    sub_dir: "init",
+    vendor: true,
+}
