@@ -1,0 +1,3 @@
+on early-boot
+    mkdir /mnt/vendor/socko 0771 root system
+    mount none /vendor/socko /mnt/vendor/socko bind

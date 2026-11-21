@@ -1,1 +1,2 @@
 set_prop(vendor_init, cam_prop)
+allow vendor_init mnt_vendor_file:dir { create_dir_perms };

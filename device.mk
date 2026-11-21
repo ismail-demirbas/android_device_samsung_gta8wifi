@@ -46,6 +46,9 @@ PRODUCT_SYSTEM_PROPERTIES += persist.sys.folio.enabled=0
 # Camera2Api Temporary Fix
 PRODUCT_SYSTEM_PROPERTIES += debug.stagefright.c2inputsurface=-1
 
+# Override kernel BPF version
+PRODUCT_SYSTEM_PROPERTIES += ro.bpf.kver_override=5.10.239
+
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := false
 
@@ -198,6 +201,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += device/samsung/gta8wifi/vendor_fixes/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 PRODUCT_COPY_FILES += frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.biometrics.face.xml
+PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.app_widgets.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.software.app_widgets.xml
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sepolicy/system_ext/mapping/30.0.system.cil:$(TARGET_COPY_OUT_SYSTEM)/etc/selinux/mapping/30.0.cil \
@@ -216,6 +220,7 @@ $(call inherit-product, device/samsung/gta8wifi/vendor_fixes/media_codecs/media_
 $(call inherit-product, device/samsung/gta8wifi/vendor_fixes/omx/omx.mk)
 $(call inherit-product, device/samsung/gta8wifi/vendor_fixes/bt_audio/bt_audio.mk)
 $(call inherit-product, device/samsung/gta8wifi/vendor_fixes/display_orientation_fix/display_orientation_fix.mk)
+$(call inherit-product, device/samsung/gta8wifi/socko/socko.mk)
 
 # Lineage Health
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/batt_slate_mode)
